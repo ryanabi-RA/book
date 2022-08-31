@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mybook</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h3>Daftar List Buku saya</h3>
+        </div>
+    </header>
+    <main>
+        <section id="search_section"></section>
+
+        <section class="input_section shadow">
+            <h3>Tambahkan buku baru</h3>
+            <form id="inputBook">
+                <div class="input">
+                    <label for="inputBookTitle">Judul</label>
+                    <input id="inputBookTitle" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="inputBookAuthor">Penulis</label>
+                    <input id="inputBookAuthor" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="inputBookYear">Tahun</label>
+                    <input id="inputBookYear" type="number" required>
+                </div>
+                <div class="input_inline">
+                    <label for="inputBookIsComplete">Selesai dibaca</label>
+                    <input id="inputBookIsComplete" type="checkbox">
+                </div>
+                    <button id="bookSubmit" class="green" type="submit">Masukkan Buku ke rak </button>
+            </form>
+        </section>
+
+        <section class="book_shelf shadow">
+            <h3>Belum selesai membaca</h3>
+            <div id="incompleteBookList" class="book_list">
+
+            </div>
+        </section>
+        
+        <section class="book_shelf shadow">
+            <h3>Sudah selesai membaca</h3>
+            <div id="completeBookList" class="book_list">
+                
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/dom.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

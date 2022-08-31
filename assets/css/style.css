@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    font-size: 20px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+}
+
+
+section{
+    padding: 16px;
+    border-radius: 16px;
+    background-color: white;
+}
+.input_section {
+    margin: 0% 5%;
+    float: left;
+    width: 30%;
+}
+
+.book_shelf {
+    margin: 0% 5% 30px;
+    float: right;
+    width: 50%;
+    color: blue;
+}
+
+.input {
+    padding: 5px;
+}
+
+article{
+    padding: 16px;
+    margin: 16px;
+    border-radius: 16px;
+    background-color: blue;
+    color: white;
+}
+
+.shadow {
+    box-shadow: 0 10px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+}
+
+input[type=text],
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+button {
+    min-width: 120px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 1px;
+    border-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: rgb(0, 255, 0);
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.green:hover{
+    background-color: rgb(0, 190, 0);
+}
+
+.red:hover {
+    background-color: rgb(184, 1, 1);
+}
