@@ -1,4 +1,5 @@
 # Project Book shelf
+tugas ini untuk menyelesaikan kelas Dicoding
 
 Demo : https://noteapp-book.vercel.app/
 
